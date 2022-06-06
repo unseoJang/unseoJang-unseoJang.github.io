@@ -1,0 +1,64 @@
+# Site Info
+title: 운서의 개발블로그
+tagline: ' dev blog'
+description: '차곡차곡 쌓아 올릴 작은 블로그 <a href="https://github.com/unseoJang" target="_blank">unseoJang github</a>'
+baseurl: ""
+url: https://unseojang.github.io/
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: 장운서
+  description: 장운서의 차곡차곡 개발 블로그
+  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  contact:
+    # linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/unseoJang
+    facebook:  https://www.facebook.com/unseo.jang
+    # twitter:   https://twitter.com/Li_Zhihao
+    # weibo:     http://weibo.com/41173780
+    email:      mailto:qqbck123@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/blog/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+  About:          
+    - '/about/'
+  Search:
+    - '/search/'
+  Github Project: 
+    - 'https://github.com/unseoJang'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-230676952-1' # leave blank if you don't want google analytics
+disqus_short_name: 'unseo Dev Blog' # leave blank if you don't want disqus
+
