@@ -39,9 +39,11 @@ author:
 nav:
   Home:           
     - '/blog/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
+  Categories:           
+    - '/'
+    - { Blog: '/blog/categories/#Blog' }
+    - { Github Pages: '/blog/categories/#Github_Pages'}
+    - { Git: '/blog/categories/#Git'}
   About:          
     - '/about/'
   Search:
