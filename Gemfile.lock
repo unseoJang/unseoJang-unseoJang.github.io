@@ -118,6 +118,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     verbal_expressions (0.1.5)
+    webrick (1.7.0)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -134,6 +135,7 @@ DEPENDENCIES
   jemoji
   tzinfo
   tzinfo-data
+  webrick (~> 1.7)
 
 BUNDLED WITH
    1.17.2
